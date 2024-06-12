@@ -1,0 +1,45 @@
+body {
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.box {
+    background-color: #fff;
+    border-radius: 20px;
+    padding-top: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.box h1 {
+    padding: 20px;
+    align-items: center;
+    margin: auto;
+    width: px;
+}
+.main img {
+    width: 200px;
+}
+
+.main h2 {
+    align-items: center;
+    margin: auto;
+    width: 300px;
+}
+.button {
+    color: #fff;
+    background-color: #f587c7;
+    padding: 15px;
+    border: none;
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+
+
+@media (width <= 290px) {
+  .main h2 {
+    width: 100%;
+  }
+}
